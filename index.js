@@ -17,7 +17,7 @@ exports.reply = function justReply(req, res) {
 
         var imgur_options = {
             method: 'GET',
-            uri: `https://api.imgur.com/3/album/${target_albumId}/images`,
+            uri: `https://api.imgur.com/3/album/${target_albumId}/`,
             headers: {
               "Authorization": `Client-ID ${193e2d7faeaa986}`
             },
