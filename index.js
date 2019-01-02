@@ -9,8 +9,8 @@ exports.reply = function justReply(req, res) {
 
         var target_albumId = "";
 
-        if( msg.includes( 抽名片 ) ){
-            target_albumId = eFKpbXB ;
+        if( msg.includes( '抽名片' ) ){
+            target_albumId = 'eFKpbXB' ;
         }else{
             return;
         }
