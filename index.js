@@ -50,8 +50,6 @@ exports.reply = function justReply(req, res) {
                   messages:[
                     {
                         type: 'image',
-                        originalContentUrl: target_imageUrl.replace("http", "https"),
-                        previewImageUrl: target_imageUrl.replace("http", "https")
                     }
                   ]
                 }
