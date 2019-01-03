@@ -1,6 +1,6 @@
 var rp = require('request-promise');
 
-exports.reply = function justReply(req, res) {
+exports.reply = function cardpickbot(req, res) {
 
     const promises = req.body.events.map(event => {
 
